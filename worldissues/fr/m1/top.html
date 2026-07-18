@@ -1,0 +1,75 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title></title>
+<script>
+<!--
+function land(ref, target)
+{
+lowtarget=target.toLowerCase();
+if (lowtarget=="_self") {window.location=loc;}
+else {if (lowtarget=="_top") {top.location=loc;}
+else {if (lowtarget=="_blank") {window.open(loc);}
+else {if (lowtarget=="_parent") {parent.location=loc;}
+else {parent.frames[target].location=loc;};
+}}}
+}
+function jump(menu)
+{
+ref=menu.choice.options[menu.choice.selectedIndex].value;
+splitc=ref.lastIndexOf("*");
+target="";
+if (splitc!=-1)
+{loc=ref.substring(0,splitc);
+target=ref.substring(splitc+1,1000);}
+else {loc=ref; target="_self";};
+if (ref != "") {land(loc,target);}
+}
+//-->
+</script>
+<base target="main">
+</head>
+
+<body bgcolor="#E8FFFF">
+
+<form action="dummy" method="post">
+  <table border="0" width="894" cellspacing="0" cellpadding="2">
+    <tr>
+      <td nowrap width="139"><font size="2" face="Arial"><a href="javascript:history.go(-1)" target="middle">Page précédente</a>
+  </font></td>
+      <td nowrap width="488"><select name="choice" size="1" onChange="jump(this.form)"><option selected value="index.html*_parent">Menu
+          pour l'unité : Description générale du module</option><option value="gmi/o/index.html*middle">Les
+          informations de base du module</option><option value="gmi/s/index.html*middle">Le
+          tableau synoptique du module</option>
+    <option value="gmi/d/index.html*middle">Les descripteurs et les différents
+    niveaux de rendement</option>
+    <option>Ressources</option>
+    <option value="gmi/rv/index.html*middle">--&gt; Vidéos</option>
+    <option value="gmi/rb/index.html*middle">--&gt; Livres</option>
+    <option value="gmi/rw/index.html*middle">--&gt; Sites web</option>
+    <option value="gmi/f/index.html*middle">Les fiches d'information</option>
+    <option value="gmi/a/index.html*middle">Annexe</option>
+    <option value="gmi/b/index.html*middle">Bibliographie</option>
+    <option value="gmi/g/index.html*middle">Glossaire</option>
+    <option value="../m2/index.html*_parent">Aller au -- Module 2 : L'économie
+    globale</option>
+  </select></td>
+      <td nowrap width="137"><font size="2" face="Arial"><a href="../index.html" target="_top">Page d'accueil</a></font></td>
+      <td nowrap width="38"><font size="2" face="Arial">
+  <a href="../help/index.html" target="_blank">Aide</a></font></td>
+      <td nowrap width="62"><font size="2" face="Arial"><a href="http://www.ocdsb.edu.on.ca/woodsweb/worldissues/en/m1/index.html" target="_parent">English</a></font></td>
+    </tr>
+  </table>
+  <p> </form>
+<p>
+</form>
+
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title></title>
+<script>
+<!--
+function land(ref, target)
+{
+lowtarget=target.toLowerCase();
+if (lowtarget=="_self") {window.location=loc;}
+else {if (lowtarget=="_top") {top.location=loc;}
+else {if (lowtarget=="_blank") {window.open(loc);}
+else {if (lowtarget=="_parent") {parent.location=loc;}
+else {parent.frames[target].location=loc;};
+}}}
+}
+function jump(menu)
+{
+ref=menu.choice.options[menu.choice.selectedIndex].value;
+splitc=ref.lastIndexOf("*");
+target="";
+if (splitc!=-1)
+{loc=ref.substring(0,splitc);
+target=ref.substring(splitc+1,1000);}
+else {loc=ref; target="_self";};
+if (ref != "") {land(loc,target);}
+}
+//-->
+</script>
+<base target="_self">
+</head>
+
+<body bgcolor="#E3FCFF">
+<form action="dummy" method="post">
+  <p> <select name="choice" size="1" onChange="jump(this.form)">
+    <option value="../index.html*_parent">Return to Unit Selection Page</option>
+    <option value="../u1/index.html*_parent" selected>Unit 1 Menu : Introduction
+    to Globalization</option>
+    <option value="ash/index.html*middle">--&gt;&nbsp; Activities and Suggested
+    Homework</option>
+    <option value="ts/index.html*middle">--&gt;&nbsp; Teacher Support</option>
+    <option value="../u2/index.html*_parent">Go To -- Unit 2 : The Global
+    Econonmy</option>
+    <option value="../u3/index.html*_parent">Go To -- Unit 3 : The Alternatives</option>
+    <option value="../u4/index.html*_parent">Go To -- Unit 4 : GIS Study of the
+    Global Economy</option>
+  </select>&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="ash/index.html" target="middle">&nbsp;<font size="2" face="Arial">Activities and Suggested
+  Homework</font></a><font size="2" face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="ts/index.html" target="middle">Teacher Support</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></form>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <font size="2" face="Arial">Button&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Button&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Button&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Button</font>
+  </form>
+
+</p>
+
+  <p align="left">&nbsp;</p>
+</form>
+
+</body>
+
+</html>

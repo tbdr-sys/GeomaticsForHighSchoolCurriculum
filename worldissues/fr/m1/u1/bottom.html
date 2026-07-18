@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title></title>
+<script>
+<!--
+function land(ref, target)
+{
+lowtarget=target.toLowerCase();
+if (lowtarget=="_self") {window.location=loc;}
+else {if (lowtarget=="_top") {top.location=loc;}
+else {if (lowtarget=="_blank") {window.open(loc);}
+else {if (lowtarget=="_parent") {parent.location=loc;}
+else {parent.frames[target].location=loc;};
+}}}
+}
+function jump(menu)
+{
+ref=menu.choice.options[menu.choice.selectedIndex].value;
+splitc=ref.lastIndexOf("*");
+target="";
+if (splitc!=-1)
+{loc=ref.substring(0,splitc);
+target=ref.substring(splitc+1,1000);}
+else {loc=ref; target="_self";};
+if (ref != "") {land(loc,target);}
+}
+//-->
+</script>
+<base target="_self">
+</head>
+
+<body bgcolor="#E8FFFF">
+<form action="dummy" method="post">
+  <p> <select name="choice" size="1" onChange="jump(this.form)">
+    <option value="../index.html*_parent">Retourner à la page de sélection
+    pour l'unité</option>
+    <option value="../u1/index.html*_parent" selected>Menu pour l'unité</option>
+    <option value="ash/index.html*middle">--&gt;&nbsp; Activité et devoirs
+    suggérés</option>
+    <option value="ts/index.html*middle">--&gt;&nbsp; Outils pour les
+    enseignants/enseignantes</option>
+    <option value="../u2/index.html*_parent">Aller à l'unité 2 : Les
+    ressources renouvelables</option>
+    <option value="../u3/index.html*_parent">Aller à l'unité 3 : Le
+    développement durable autour du monde</option>
+    <option value="../u4/index.html*_parent">Aller à l'unité 4: L'agriculture
+    renouvelable à l'échelle mondiale</option>
+  </select>&nbsp; <a href="ash/index.html" target="middle">&nbsp;<font size="2" face="Arial">Activités</font></a><font size="2" face="Arial"><a href="ash/index.html" target="middle">
+  et devoirs suggérés</a>&nbsp;&nbsp; <a href="ts/index.html" target="middle">Outils
+  pour les enseignants/enseignantes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></form>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+
+</body>
+
+</html>

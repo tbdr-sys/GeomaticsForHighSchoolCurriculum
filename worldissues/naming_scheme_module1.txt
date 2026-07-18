@@ -1,0 +1,72 @@
+Directory Structure and Naming Scheme For Module 1
+
+Home Directory:  I:\geography\website\worldissues\
+
+English:  I:\geography\website\worldissues\en\
+
+  Module 1:  I:\geography\website\worldissues\en\m1\
+
+  General Module Information:  en\m1\gmi\
+  (current DIR I:\geography\website\worldissues\en\m1\gmi\)
+    Apendicies:             I:\geography\website\worldissues\en\m1\gmi\a\  (filename a#.pdf)
+    Additional Activities:  I:\geography\website\worldissues\en\m1\gmi\aa\ (filename aa#.pdf)
+    Biblyography:	    I:\geography\website\worldissues\en\m1\gmi\b\  (filename b#.pdf)
+    Descriptors:	    I:\geography\website\worldissues\en\m1\gmi\d\  (filename d#.pdf)
+    Fact Sheets		    I:\geography\website\worldissues\en\m1\gmi\f\  (filename f#.pdf)
+    Glossary:		    I:\geography\website\worldissues\en\m1\gmi\g\  (filename g#.pdf)
+    Overall Expectations:   I:\geography\website\worldissues\en\m1\gmi\o\  (filename o#.pdf)
+    Resources - Books:	    I:\geography\website\worldissues\en\m1\gmi\rb\ (filename rb#.pdf)
+    Resources - Video:	    I:\geography\website\worldissues\en\m1\gmi\rv\ (filename rv#.pdf)
+    Resources - Websites:   I:\geography\website\worldissues\en\m1\gmi\rw\ (filename rw#.pdf)
+    Synopsis:	 	    I:\geography\website\worldissues\en\m1\gmi\s\  (filename s#.pdf)
+					
+    Unit 1:  		                  I:\geography\website\worldissues\en\m1\u1
+      Activities and Suggested Homework:  I:\geography\website\worldissues\en\m1\u1\ash 
+        Activities:			  I:\geography\website\worldissues\en\m1\u1\ash\ (filename a#.pdf)
+        Worksheets:		 	  I:\geography\website\worldissues\en\m1\u1\ash\ (filename w#.pdf)
+        Suggested Homework:	 	  I:\geography\website\worldissues\en\m1\u1\ash\ (filename sh#.pdf)
+        Supplementary Sheets:		  I:\geography\website\worldissues\en\m1\u1\ash\ (filename ss#.pdf)
+      Teacher Support: 			  I:\geography\website\worldissues\en\m1\u1\ts
+        Curriculum:			  I:\geography\website\worldissues\en\m1\u1\ts\  (filename c.pdf)
+        Assessment:			  I:\geography\website\worldissues\en\m1\u1\ts\  (filename a.pdf)
+        Rubric:				  I:\geography\website\worldissues\en\m1\u1\ts\  (filename r.pdf)
+        Resources:			  I:\geography\website\worldissues\en\m1\u1\ts\  (filename u.pdf)
+    
+    Unit 2:  		                  I:\geography\website\worldissues\en\m1\u2
+      Activities and Suggested Homework:  I:\geography\website\worldissues\en\m1\u2\ash 
+        Activities:			  I:\geography\website\worldissues\en\m1\u2\ash\ (filename a#.pdf)
+        Worksheets:		 	  I:\geography\website\worldissues\en\m1\u2\ash\ (filename w#.pdf)
+        Suggested Homework:	 	  I:\geography\website\worldissues\en\m1\u2\ash\ (filename sh#.pdf)
+        Supplementary Sheets:		  I:\geography\website\worldissues\en\m1\u2\ash\ (filename ss#.pdf)
+      Teacher Support: 			  I:\geography\website\worldissues\en\m1\u2\ts
+        Curriculum:			  I:\geography\website\worldissues\en\m1\u2\ts\  (filename c.pdf)
+        Assessment:			  I:\geography\website\worldissues\en\m1\u2\ts\  (filename a.pdf)
+        Rubric:				  I:\geography\website\worldissues\en\m1\u2\ts\  (filename r.pdf)
+        Resources:			  I:\geography\website\worldissues\en\m1\u2\ts\  (filename u.pdf)
+    
+    Unit 3:  		                  I:\geography\website\worldissues\en\m1\u3
+      Activities and Suggested Homework:  I:\geography\website\worldissues\en\m1\u3\ash 
+        Activities:			  I:\geography\website\worldissues\en\m1\u3\ash\ (filename a#.pdf)
+        Worksheets:		 	  I:\geography\website\worldissues\en\m1\u3\ash\ (filename w#.pdf)
+        Suggested Homework:	 	  I:\geography\website\worldissues\en\m1\u3\ash\ (filename sh#.pdf)
+        Supplementary Sheets:		  I:\geography\website\worldissues\en\m1\u3\ash\ (filename ss#.pdf)
+      Teacher Support: 			  I:\geography\website\worldissues\en\m1\u3\ts
+        Curriculum:			  I:\geography\website\worldissues\en\m1\u3\ts\  (filename c.pdf)
+        Assessment:			  I:\geography\website\worldissues\en\m1\u3\ts\  (filename a.pdf)
+        Rubric:				  I:\geography\website\worldissues\en\m1\u3\ts\  (filename r.pdf)
+        Resources:			  I:\geography\website\worldissues\en\m1\u3\ts\  (filename u.pdf)
+
+    Unit 4:  		                  I:\geography\website\worldissues\en\m1\u4
+      Activities and Suggested Homework:  I:\geography\website\worldissues\en\m1\u4\ash 
+        Activities:			  I:\geography\website\worldissues\en\m1\u4\ash\ (filename a#.pdf)
+        Worksheets:		 	  I:\geography\website\worldissues\en\m1\u4\ash\ (filename w#.pdf)
+        Suggested Homework:	 	  I:\geography\website\worldissues\en\m1\u4\ash\ (filename sh#.pdf)
+        Supplementary Sheets:		  I:\geography\website\worldissues\en\m1\u4\ash\ (filename ss#.pdf)
+      Teacher Support: 			  I:\geography\website\worldissues\en\m1\u4\ts
+        Curriculum:			  I:\geography\website\worldissues\en\m1\u4\ts\  (filename c.pdf)
+        Assessment:			  I:\geography\website\worldissues\en\m1\u4\ts\  (filename a.pdf)
+        Rubric:				  I:\geography\website\worldissues\en\m1\u4\ts\  (filename r.pdf)
+        Resources:			  I:\geography\website\worldissues\en\m1\u4\ts\  (filename u.pdf)
+      Data and GIS Background Info:       I:\geography\website\worldissues\en\m1\u4\dbi
+        Background Info:		  I:\geography\website\worldissues\en\m1\u4\dbi\ (filename b.pdf)
+        GIS Info:			  I:\geography\website\worldissues\en\m1\u4\dbi\ (filename g.pdf)

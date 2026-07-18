@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title></title>
+<script>
+<!--
+function land(ref, target)
+{
+lowtarget=target.toLowerCase();
+if (lowtarget=="_self") {window.location=loc;}
+else {if (lowtarget=="_top") {top.location=loc;}
+else {if (lowtarget=="_blank") {window.open(loc);}
+else {if (lowtarget=="_parent") {parent.location=loc;}
+else {parent.frames[target].location=loc;};
+}}}
+}
+function jump(menu)
+{
+ref=menu.choice.options[menu.choice.selectedIndex].value;
+splitc=ref.lastIndexOf("*");
+target="";
+if (splitc!=-1)
+{loc=ref.substring(0,splitc);
+target=ref.substring(splitc+1,1000);}
+else {loc=ref; target="_self";};
+if (ref != "") {land(loc,target);}
+}
+//-->
+</script>
+<base target="main">
+</head>
+
+<body bgcolor="#E3FCFF">
+
+<form action="dummy" method="post">
+  <p><font size="2" face="Arial"><a href="javascript:history.go(-1)" target="_parent">Back</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </font><select name="choice" size="1" onChange="jump(this.form)"><option selected value="../index.html*_parent">Module
+    1 Menu : General Module Information</option><option value="../gmi/o/index.html*middle">Overall
+    Background of the Module</option><option value="../gmi/s/index.html*middle">Synopsis
+    of Module</option>
+    <option value="../gmi/d/index.html*middle">Descriptors and Levels of
+    Achievement</option>
+    <option>Resources</option>
+    <option value="../gmi/rv/index.html*middle">--&gt; Videos</option>
+    <option value="../gmi/rb/index.html*middle">--&gt; Books</option>
+    <option value="../gmi/rw/index.html*middle">--&gt; Web Sites</option>
+    <option>Fact Sheets (Not available)</option>
+    <option value="../gmi/a/index.html*middle">Appendices</option>
+    <option value="../gmi/b/index.html*middle">Bibliography</option>
+    <option value="../gmi/g/index.html*middle">Glossary</option>
+    <option value="../../m2/index.html*_parent">Go To -- Module 2 : Global
+    Economy</option>
+  </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font size="2" face="Arial"><a href="../index.html" target="_top">Home</a>&nbsp;&nbsp;&nbsp;
+  <a href="../help/index.html" target="_blank">Help</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="../../fr/m1/index.html" target="_parent">Français</a></font> </form>
+<p>
+</form>
+
+</p>
+
+</body>
+
+</html>
